@@ -1,0 +1,2 @@
+2026-03-18T07:12:37+06:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.370.sha.2847fb6 (2847fb6) built at 2026-03-17T12:37:16Z
+2026-03-18T07:12:37+06:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=init full_command=[/home/umme/.cache/codacy/codacy-cli-v2/1.0.0-main.370.sha.2847fb6/codacy-cli-v2 init] args=[]
