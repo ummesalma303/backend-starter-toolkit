@@ -6,8 +6,11 @@
 # Dependencies
 /node_modules
 
-# TypeScript build output
+# Type
+Script build output
 /dist
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
+
+logs

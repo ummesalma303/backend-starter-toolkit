@@ -15,10 +15,11 @@ const isDev: boolean = config.ENV === EApplicationEnvironment.DEVELOPMENT
 /* ---------------------------- Rotating File Stream (Prod) ---------------------------- */
 const stream: DestinationStream | undefined = !isDev
     ? (rfs.createStream(
-          (time: Date | number) => {
+          (time) => {
               if (!time) return 'combined.log'
-              const dateObj = time instanceof Date ? time : new Date(time)
-              const date: string = dateObj.toISOString().split('T')[0]
+
+              const date = new Date(time).toISOString().slice(0, 10)
+
               return `${date}-combined.log`
           },
           {
