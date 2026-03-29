@@ -1,5 +1,5 @@
 # Using the official Node.js image as the base image
-FROM node:20-alpine AS base
+FROM node:20-alpine AS builder
 
 # pnpm enable
 RUN corepack enable
@@ -12,8 +12,7 @@ COPY package.json pnpm-lock.yaml ./
 RUN pnpm install --frozen-lockfile
 
 COPY . ./
-
+# Expose the port that the application will run on
 EXPOSE 3000
-
 # Start the application
 CMD ["pnpm", "run", "dev"]
