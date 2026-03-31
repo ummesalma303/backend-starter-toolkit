@@ -13,7 +13,8 @@ A minimal Node.js + TypeScript backend starter template and CLI tool using Expre
 - utility module `sum` with Vitest unit tests
 - linting, formatting, commit hooks, and type-checking workflows
 
-## 📦 Requirements
+
+## �📦 Requirements
 
 - Node.js 25.x (or latest compatible)
 - `pnpm` (project uses `pnpm` package manager)
@@ -95,17 +96,13 @@ Git hooks via `husky` and `lint-staged` run lint + prettier before commit.
 - `src/type/types.ts` - TS type definitions
 - `src/__tests__` - unit tests
 
-## 🌐 API Endpoints
-
-- `GET /` returns 200 with body "Hello World!"
-
 ## 🖥️ CLI Usage
 
 This project can be installed globally and used as a CLI tool to bootstrap new backend projects.
 
 ```bash
 npm install backend-starter-toolkit
-backend-starter --help
+backend-starter-toolkit --help
 ```
 
 ## 🛡 Middleware flow
