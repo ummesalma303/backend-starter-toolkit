@@ -19,7 +19,7 @@ const projectName = answers.projectName;
 
 const targetPath = path.join(process.cwd(), projectName);
 
-// FIXED template path
+// template path
 const __dirname = new URL('.', import.meta.url).pathname;
 const templatePath = path.join(__dirname, "../templates");
 
