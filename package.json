@@ -1,12 +1,12 @@
 {
-  "name": "backend-starter-toolkit",
+  "name": "my-backend-setup",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "postinstall": "node ./bin/postinstall.js"
   },
   "bin": {
-    "backend-starter-toolkit": "bin/index.js"
+    "my-backend-setup": "bin/index.js"
   },
   "files": [
     "bin",

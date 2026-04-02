@@ -4,10 +4,9 @@
 !.env.example
 
 # Dependencies
-/node_modules
-
+/templates/node_modules
 # Type
-dist/
+/templates/dist/
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
