@@ -1,10 +1,9 @@
 # node-backend-template
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Node Version](https://img.shields.io/badge/node-%3E%3D20.x-blue)
+![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-cc00ff)
 
 A minimal Node.js + TypeScript backend starter template and CLI tool using Express, Pino logging, validation middleware, 404 + error handling, and fast development cycle.
-
-## Keywords
-
-node-backend-template, backend-starter, node-cli-tool, express-template, typescript-backend, api-starter, backend-boilerplate
 
 ## ✅ Features
 
@@ -74,14 +73,6 @@ npx node-backend-template --version  # Show version
 ```
 
 > ⚠️ **Warning:** Do NOT use `npm i node-backend-template`. Always use `npx node-backend-template` for the best experience with proper dependency management.
-
----
-
-## Install dependencies
-
-```bash
-pnpm install
-```
 
 ## 🛠️ Environment
 
@@ -164,23 +155,7 @@ Git hooks via `husky` and `lint-staged` run lint + prettier before commit.
 6. `globalErrorHandler` handles errors in JSON format
 7. `notFound` handles unknown routes
 
-## 🧩 Tool usecases
-
-- `pnpm`: package install, script runner, workspace management
-- `tsx`: run TypeScript directly without build step (dev server)
-- `typescript`/`tsc`: type-checking and production build (`pnpm build`)
-- `express`: web framework and routing
-- `dotenv`: environment config from `.env` files
-- `helmet`: security best-practice headers
-- `cors`: cross-origin resource sharing
-- `pino`, `pino-http`, `pino-pretty`: structured logs + prettified dev logs
-- `rotating-file-stream`: daily log rotation in `logs/`
-- `vitest`: testing framework (`test`/`coverage`)
-- `eslint`, `@commitlint`, `prettier`: code quality and style enforcement
-- `husky`, `lint-staged`: commit hooks and pre-commit lint/format
-- `npm-check-updates` (ncu): check and update outdated dependencies
-
-## 🤝 Contributing
+##  Contributing
 
 Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for community expectations.
 
