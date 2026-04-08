@@ -182,11 +182,15 @@ Git hooks via `husky` and `lint-staged` run lint + prettier before commit.
 
 ## 🤝 Contributing
 
+Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for community expectations.
+
+If you are contributing through a pull request, the basic flow is:
+
 1. Fork and branch
 2. `pnpm install`
-3. Add tests
+3. Add or update tests
 4. Run lint/format
-5. Open PR
+5. Open a pull request
 
 ## 🆘 Troubleshooting
 

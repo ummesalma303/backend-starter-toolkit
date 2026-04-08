@@ -11,6 +11,14 @@
     "templates",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ummesalma303/node-backend-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ummesalma303/node-backend-template/issues"
+  },
+  "homepage": "https://github.com/ummesalma303/node-backend-template#readme",
   "author": "Umme Salma",
   "keywords": [
     "node-backend-template",
